@@ -1,0 +1,15 @@
+{
+  "name": "tifosports-socket-sample",
+  "private": true,
+  "type": "module",
+  "description": "TifoSports WebSocket sample client: join the plan's channel, keep every event current, recover on a gap.",
+  "scripts": {
+    "start": "node client.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "pusher-js": "^8.4.0"
+  }
+}
